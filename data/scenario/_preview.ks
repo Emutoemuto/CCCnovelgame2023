@@ -4,9 +4,18 @@
 [bg  time="10"  method="fadeInRight"  storage="rouka.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  ]
 [tb_show_message_window] 
-[chara_mod  name="女友達"  time="10"  cross="true"  storage="chara/1/女友達_怒り顔幅500.png"  ]
+[chara_mod  name="女友達"  time="10"  cross="true"  storage="chara/1/女友達_笑顔幅500.png"  ]
 [chara_show  name="女友達"  time="10"  wait="true"  storage="chara/1/女友達_笑顔幅500.png"  width="500"  height="708"  left="285"  top="131"  reflect="false"  ]
 [mask_off time=10]
+[tb_start_text mode=1 ]
+#ゆうこ
+おおー、そう言ってくれると思ってたよ！[p]
+[_tb_end_text]
+
+[jump  storage="scene1.ks"  target="*common"  ]
+*no
+
+[chara_mod  name="女友達"  time="600"  cross="true"  storage="chara/1/女友達_怒り顔幅500.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 むーー！[p]
@@ -28,7 +37,7 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
-そうだなー、分かったよ。[p]
+しょうがないな、分かったよ。[p]
 [_tb_end_text]
 
 [chara_hide  name="女友達"  time="1000"  wait="false"  pos_mode="true"  ]
